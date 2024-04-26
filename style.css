@@ -1,0 +1,41 @@
+*{
+    font-family: Arial;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3cPt7LJ7IN8x-vxwJm6c8yPE1lL12eBCYURjNoN6gg&s);
+    background-size: cover;
+}
+#banner{
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:9%;
+}
+.c{
+    display: flex;
+    justify-content: center;
+}
+#clock{
+    height: 80px;
+    width: 30.5rem;
+    background:black;
+    /* margin-left: 37%; */
+    margin-top: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: white;
+}
+@media (min-width: 320px) {
+    #banner{
+        font-size:3rem;
+    }
+    #clock{
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 20px;
+    }
+  }
+  
